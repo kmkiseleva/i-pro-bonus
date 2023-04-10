@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  padding: 0 var(--padding);
+}
+
+@media (max-width: 340px) {
+  .container {
+    padding: 0 var(--padding-mobile);
+  }
+}
